@@ -19,3 +19,18 @@ Comando rmdir e o nome da pasta e o /S /Q deleta a pasta inteira.
 SHA1 serve para criar uma encriptação de cada alteração. É gerado um código de 40 dígitos.
 
 O comando a ser utilizado é openssl sha1 e o nome do arquivo, e pronto é gerado um código com 40 dígitos. Isso serve para ajudar na identificação, pois quando uma vírgula é alterada o código também é alterado e se retirarmos a vírgula e gerarmos outro código, ele retorna para o primeiro código.
+
+Comandos para configurar o Git Bash
+
+git config --list: Lista todas as configurações do Git
+git config --global usar.name "" : Define o nome do usuário para o Git
+git config --global user.email "" : Define o e-mail de usuário para o Git, geralmente tem que ser o e-mail que foi cadastrado no GitHub
+
+Comandos Gerais
+
+git init: Inicia um repositório Git
+git status: Verifica o status atual do projeto
+git add <file>: Adiciona o arquivo no projeto.
+git commit -m "": Armazena as mudanças efetuadas e descreve no comentário o que foi alterado
+git log: Mostra todas as alterações efetuadas 
+git push origin master/main: Envia todos os arquivos modificados e comitados para o repositório do GitHub

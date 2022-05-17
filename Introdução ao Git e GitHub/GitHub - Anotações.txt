@@ -1,0 +1,9 @@
+Introdução ao GitHub
+
+Primeiro passo, criar uma conta no GitHub, no site https://github.com
+
+Para criar um repositório:
+
+Basta clicar sobre o botão “+” localizado no canto superior direito e selecionar a opção “New repository”.
+
+Basta inserir um nome ao repositório, uma descrição (opcional), definir a visibilidade do repositório (público ou privado) e clicar sobre o botão “Create repository”.
